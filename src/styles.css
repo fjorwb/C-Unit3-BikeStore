@@ -11,7 +11,11 @@
 	--txt-color: white;
 }
 
-.visible-scrollbar {
+/* .visible-scrollbar {
+	display: none;
+} */
+
+scrollbar {
 	display: none;
 }
 
