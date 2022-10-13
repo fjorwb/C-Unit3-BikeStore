@@ -17,7 +17,7 @@
 
 body {
 	background: var(--bck-color);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: jetbrains mono, monospace;
 	font-size: 16px;
 	/* margin: 1rem; */
 }
@@ -52,7 +52,7 @@ body {
 	background: var(--ter-color);
 	color: var(--txt-color);
 	list-style: none;
-	padding: 0 1rem;
+	padding: 0.5vw 1vw;
 	z-index: 2;
 	top: 14vw;
 	box-shadow: inset 6.5vw 0.75vw var(--sec-color);
@@ -88,14 +88,14 @@ a:hover {
 .section1 p {
 	position: absolute;
 	z-index: 10;
-	top: 30vw;
+	top: 25vw;
 	left: 35vw;
 	right: 6vw;
-	font-size: 1.5vw;
+	font-size: 1.25vw;
 	background: #252198;
 	z-index: 11;
-	padding: 1vh;
-	border-radius: 5px;
+	padding: 2vh;
+	border-radius: 15px;
 	font-style: italic;
 	opacity: 0.8;
 	line-height: 3.5vw;
@@ -144,6 +144,10 @@ a:hover {
 	justify-content: space-evenly;
 	gap: 1rem;
 	font-size: 1rem;
+}
+
+.section h3 {
+	font-size: 3vw;
 }
 
 .text {
